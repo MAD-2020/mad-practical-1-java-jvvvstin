@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class Question4
 {
+  public static void stringMultiply(String s, int n) {
+    for(int i = n; i > 0; i--) {
+      System.out.print(s);
+    }
+  }
+  
   public static void main(String[] args)
   {
     /**
@@ -18,6 +24,11 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Enter a number: ");
+    int num = in.nextInt();
+    for (int i = 0; i < num; i++) {
+      stringMultiply("*", num - i);
+      System.out.print("\n");
+    }
   }
 }
