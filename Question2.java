@@ -5,7 +5,7 @@ public class Question2
   public static void main(String[] args)
   {
     /**
-     * Prompts user for height and weight, calculate and print out the height and weight of the user
+     * Prompts user for height and weight, calculate and print out the bmi of the user
      * 
      * Hint: in.nextDouble() to read double
      */
